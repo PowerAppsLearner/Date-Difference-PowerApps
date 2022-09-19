@@ -1,0 +1,30 @@
+{
+  "d1c275d2-0dbb-467d-b0a9-ffc3953500a3": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1591/1.0.1591.2961/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://harshp924.sharepoint.com/sites/Task2": {
+        "dataSources": {
+          "Excluding weekends": {
+            "tableName": "bbb32810-ffbb-4b07-85e9-f6a310e4b043"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Excluding weekends"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d1c275d2-0dbb-467d-b0a9-ffc3953500a3"
+  }
+}
